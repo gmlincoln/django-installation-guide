@@ -116,3 +116,6 @@ Django is technically MVT (Model-View-Template), not MVC, but very similar.
 | **View**       | Handles user input & logic               | Handles logic & passes data to Template        |
 | **Controller** | Handles interaction between Model & View | Django **framework itself acts as controller** |
 | **Template**   | Part of View                             | Handles presentation (HTML)                    |
+
+
+Django separates logic (View) and presentation (Template) like MVC but the controller is built-in.
