@@ -96,4 +96,12 @@ Start your Django project locally.
 python manage.py runserver
 
 ```
-Visit http://127.0.0.1:8000/ in your browser to see your project.
+Visit http://127.0.0.1:8000/ in your browser to see your project.(locally)
+
+#### Project vs App in Django
+
+| **Term**    | **Definition**                                                                                                                   | **Example**                |
+| ----------- | -------------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
+| **Project** | The **entire Django website**. It can contain multiple apps. It includes settings, URL configuration, WSGI/ASGI, templates, etc. | `job_portal`               |
+| **App**     | A **self-contained module** within a project, focused on **one functionality**. Can be reused in other projects.                 | `accounts`, `jobs`, `blog` |
+
